@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,320 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .bg-hero-section {
+  background-image: url("../src/assets/Home/kk\ 1.png"), url("../src/assets/Home/tree_70721.png");
+  background-repeat: no-repeat, repeat-x;
+  background-position: center center, left bottom;
+  background-size: 100%, 99%;
+  height: 36.458vw;
+  width: 70.313vw;
+  opacity: .9;
+
+} */
+
+@media only screen and (min-width: 768px) {
+  .bg-hero-section {
+    /* tree_7072 */
+    background-image: url("../src/assets/Home/kk\ 1.png"), url("../src/assets/Home/tree_70721.png");
+    background-repeat: no-repeat, repeat-x;
+    background-position: center center, left bottom;
+    background-size: 90%, 100%;
+    height: 40vw;
+    /* height: 36.458vw; */
+    width: 70.313vw;
+    opacity: .9;
+
+  }
+
+  .VehicleDetails {
+    background-image: url('../src/assets/VehicalCards/IMG.png');
+    /* background-image: url("../../my-folder/src/assets/VehicalCards/IMG.png"), ; */
+    background-repeat: no-repeat, ;
+    background-position: 70%;
+    background-size: cover;
+    /* height: 20vw; */
+    height: 17.448vw;
+    /* height: 36.458vw; */
+    /* width: 98.9vw; */
+    width: 100%;
+    object-fit: contain;
+    /* background-color: red; */
+    overflow: hidden;
+  }
+
+
+  .login {
+    background-image: url('../src/assets/loginSignup/pic22.png');
+    /* background-image: url("../../my-folder/src/assets/VehicalCards/IMG.png"), ; */
+    background-repeat: no-repeat, ;
+    background-position: 70%;
+    background-size: cover;
+    /* height: 20vw; */
+    height: 17.448vw;
+    /* height: 36.458vw; */
+    /* width: 98.9vw; */
+    width: 100%;
+    object-fit: contain;
+    /* background-color: red; */
+    overflow: hidden;
+  }
+
+  /* pic23 */
+
+  .EditProfile {
+    background-image: url('../src/assets/EditProfile/pic23.png');
+    /* background-image: url("../../my-folder/src/assets/VehicalCards/IMG.png"), ; */
+    background-repeat: no-repeat, ;
+    background-position: 70%;
+    background-size: cover;
+    /* height: 20vw; */
+    height: 20vw;
+    /* height: 36.458vw; */
+    /* width: 98.9vw; */
+    width: 100%;
+    object-fit: contain;
+    /* background-color: red; */
+    overflow: hidden;
+  }
+
+  .signup {
+    background-image: url('../src/assets/loginSignup/pic21.png');
+    /* background-image: url("../../my-folder/src/assets/VehicalCards/IMG.png"), ; */
+    background-repeat: no-repeat, ;
+    background-position: 70%;
+    background-size: cover;
+    /* height: 20vw; */
+    height: 17.448vw;
+    /* height: 36.458vw; */
+    /* width: 98.9vw; */
+    width: 100%;
+    object-fit: cover;
+    /* background-color: red; */
+    overflow: hidden;
+  }
+
+  .shadowDiv {
+    position: absolute;
+    /* Position the shadow absolutely */
+    top: 0;
+    /* Align to the top */
+    left: 0;
+    /* Align to the left */
+    right: 0;
+    /* Stretch to the right */
+    bottom: 0;
+    /* Stretch to the bottom */
+    background: rgba(0, 0, 0, 0.7);
+    /* Black shadow with opacity */
+    z-index: 1;
+    /* Ensure the shadow is above the background image */
+  }
+
+  .background-white-shadow {
+    background-color: rgba(255, 255, 255, .8);
+  }
+
+  .text-stroke {
+    color: white;
+    text-shadow:
+      0.156vw 0.156vw 0 #343444,
+      -0.052vw -0.052vw 0 #343444,
+      0.052vw -0.052vw 0 #343444,
+      -0.052vw 0.052vw 0 #343444,
+      0.052vw 0.052vw 0 #343444;
+  }
+}
+
+/* .text-stroke {
+  color: white;
+  text-shadow:
+    0.156vw 0.156vw 0 #343444,
+    -0.052vw -0.052vw 0 #343444,
+    0.052vw -0.052vw 0 #343444,
+    -0.052vw 0.052vw 0 #343444,
+    0.052vw 0.052vw 0 #343444;
+} */
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .bg-hero-section-sm {
+    background-image: url("../src/assets/Home/kk\ 1.png"), url("../src/assets/Home/tree_70721.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center bottom, left bottom;
+    background-size: 150%, 150%;
+    height: 380px;
+    width: 100%;
+    opacity: .9;
+    z-index: -1;
+    margin-top: -30px;
+  }
+
+  .text-stroke {
+    color: white;
+    text-shadow:
+      1.66px 1.66px 0 #343444,
+      1.66px -1.66px 0 #343444,
+      1.66px -1.66px 0 #343444,
+      -1.66px 1.66px 0 #343444,
+      1.66px 1.66px 0 #343444;
+  }
+
+  .background-white-shadow {
+    background-color: rgba(255, 255, 255, .8);
+  }
+}
+
+
+.categroyCard {
+  box-shadow: 0px 3px 16px 0px #2F536D1F;
+}
+
+
+.buttonShadowBuyNow {
+  box-shadow: 0px 1px 2px 0px #1018280D;
+
+}
+
+
+
+
+.boxShadowDestinition {
+  box-shadow: 0px 3px 16px 0px #2F536D1F;
+
+}
+
+.inputBorder {
+  border: 1px solid #EBEBEB
+}
+
+
+
+/* Hide scrollbar for WebKit browsers */
+.mySwiper::-webkit-scrollbar {
+  display: none;
+  /* Safari and Chrome */
+}
+
+/* Hide scrollbar for Firefox */
+.mySwiper {
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+
+
+
+
+
+
+
+.custom-prev,
+.custom-next {
+  background: transparent;
+  /* or your desired background */
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  /* Adjust as needed */
+  position: absolute;
+  top: 50%;
+  /* Center vertically */
+  transform: translateY(-50%);
+  z-index: 10;
+  /* Ensure buttons are above the Swiper */
+  background-color: red;
+}
+
+.custom-prev {
+  left: 10px;
+  /* Position to the left */
+}
+
+.custom-next {
+  right: 10px;
+  /* Position to the right */
+}
+
+/* Style your icons here */
+.your-icon-class {
+  /* Customize your icon styles */
+}
+
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  /* background-color: yellow !important;
+width: 30px;
+height: 30px; */
+}
+
+/* swiper-button-prev.swiper-button-disabled,
+.swiper-button-next.swiper-button-disabled {
+  background-color: red !important;
+  color: pink !important;
+} */
+
+
+.scroller {
+  /* width: 300px; */
+  /* height: 10vw; */
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  /* scrollbar-width: .3vw; */
+  /* scrollbar-width: 1px; */
+  /* padding-right: 510px !important; */
+}
+
+.customBtn {
+  background: rgba(138, 138, 160, 0.1);
+}
+
+/* Custom scrollbar for WebKit browsers (Chrome, Safari) */
+
+.buttonShadow {
+  box-shadow: 0px 1px 2px 0px #1018280D;
+  border: 0.052vw solid #D0D5DD
+}
+
+.formBorder {
+  border: 1px solid #8A8AA066
+}
+
+.custom-background {
+  background: rgba(138, 138, 160, 0.1);
+}
+
+.mobileNavBg {
+  background-color: rgb(51, 51, 51);
+
+}
+
+.editBoxShadow {
+  box-shadow: 0px 4px 4px 0px #1C181840;
+}
+
+.portFolioHeroBg {
+  /*   background: rgba(0, 0, 0, 0.3); */
+  background: rgba(0, 0, 0, 0.65);
+  /* background: rgb(0, 0, 0);  */
+}
+
+.borderOfHeroSection {
+  border: 1.5px solid #FFFFFF
+}
+
+.MyProfileInput {
+  /* border: 1px solid #8A8AA04D  */
+  border: 1px solid rgba(138, 138, 160, 0.3);
+
 }
